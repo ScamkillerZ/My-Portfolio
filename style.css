@@ -1,0 +1,147 @@
+*{
+  margin: 1px;
+  padding: 1px;
+}
+#logo{
+  font-size: 30px;
+  text-align: center;
+  color: rgb(24, 95, 165);
+  padding-right: 10px;
+  border-right: 1px solid #378ADD;
+}
+#navbar{
+  border: 1px solid #378ADD;
+  border-radius: 10px;
+  background-color: rgb(230, 241, 251);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav-links{
+  padding: 5px;
+}
+.about, .projects{
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  background-color: #afcae5;
+  color:rgb(22, 90, 158);
+}
+.contact{
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(63, 123, 184);
+  color: white;
+}
+
+#hero{
+  background-color: rgb(241, 239, 232);
+  border: 1px solid rgb(136, 135, 128);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+}
+#profile-pic{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid #B4B2A9;
+  object-fit: cover;
+  margin-right: 20px;
+}
+#hero-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#name{
+  background-color: rgb(163, 162, 156);
+  height: 50px;
+  width: 300px;
+  font-size: 30px;
+  border-radius: 5px;
+  text-align: center;
+  align-content: center;
+}
+#hero-titles{
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+}
+.hero-title{
+  background-color: rgb(207, 206, 200);
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  list-style: none;
+}
+.bio-detail{
+  background-color: rgb(211, 209, 199);
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+#social-links{
+  display: flex;
+  align-items: center;
+
+}
+#view-projects-btn{
+  font-size: 20px;
+  background-color: rgb(63, 123, 184);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+}
+#cv-download-btn{
+  font-size: 20px;
+  border: 2px solid rgb(63, 123, 184);
+  color: rgb(63, 123, 184);
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  margin-left: 10px;
+}
+.links{
+  display: flex;
+  text-decoration: none;
+  align-content: center;
+  align-items: center;
+  background-color: rgb(207, 206, 200);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+}
+
+#skills{
+  border: 1px solid rgb(127, 119, 221);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(238, 237, 254);
+}
+#tech-skill{
+  font-size: 30px;
+  color: rgb(60, 52, 137);
+  text-align: center;
+}
+#toolbox{
+  display: flex;
+  justify-content: center;
+}
+.toolboxs{
+  border: 1px solid rgb(127, 119, 221);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.skill-title{
+  color:rgb(60, 52, 137);
+}
+.skill-titles{
+  
+}

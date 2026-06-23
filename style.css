@@ -42,6 +42,7 @@
   border-radius: 10px;
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
 }
 #profile-pic{
   height: 300px;
@@ -140,8 +141,28 @@
   background-color: rgb(255, 255, 255);
 }
 .skill-title{
+  font-size: 20px;
   color:rgb(60, 52, 137);
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.box{
+  display: flex;
+  flex-wrap: wrap;
 }
 .skill-titles{
-  
+  border: 1px solid rgb(175, 169, 236);
+  border-radius: 50px;
+  padding: 3px 8px 3px 8px;
+  margin: 5px;
+  color: rgb(83, 74, 183);
+  background-color: rgb(238, 237, 254);
+}
+
+#proficiency{
+  font-size: 20px;
+  color: rgb(60, 52, 137);
+  text-align: left;
+  margin: 10px;
 }

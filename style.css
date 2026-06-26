@@ -19,7 +19,7 @@
   align-items: center;
 }
 #nav-links{
-  padding: 5px;
+  margin: 0px 10px 0px 10px;
 }
 .about, .projects{
   text-decoration: none;
@@ -42,7 +42,6 @@
   border-radius: 10px;
   padding: 10px;
   display: flex;
-  flex-wrap: wrap;
 }
 #profile-pic{
   height: 300px;
@@ -50,12 +49,13 @@
   border-radius: 50%;
   border: 1px solid #B4B2A9;
   object-fit: cover;
-  margin-right: 20px;
+  
 }
 #hero-details{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 10px;
 }
 #name{
   background-color: rgb(163, 162, 156);
@@ -70,6 +70,7 @@
   display: inline-block;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .hero-title{
   background-color: rgb(207, 206, 200);
@@ -82,11 +83,14 @@
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
 }
-
 #social-links{
   display: flex;
   align-items: center;
-
+  flex-wrap: wrap;
+}
+#social-button{
+  display: flex;
+  justify-content: space-between;
 }
 #view-projects-btn{
   font-size: 20px;
@@ -102,7 +106,9 @@
   color: rgb(63, 123, 184);
   border-radius: 5px;
   padding: 10px 20px 10px 20px;
-  margin-left: 10px;
+}
+#other-links{
+  display: flex;
 }
 .links{
   display: flex;
@@ -113,8 +119,66 @@
   border-radius: 50%;
   height: 35px;
   width: 35px;
-  margin-left: 10px;
+  margin: 5px;
 }
+
+#about{
+  background-color: #FAECE7;
+  border: 1px solid #D85A30;
+  border-radius: 10px;
+  padding: 10px;
+  color: #4A1B0C;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#about-box{
+  display: flex;
+  justify-content: center;
+}
+#about-me{
+  text-align: center;
+}
+#about-pic{
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 1px solid #D85A30;
+  object-fit: cover;
+}
+#about-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
+#about-highlights{
+  display: flex;
+  justify-content: center;
+}
+.highlight{
+  border-radius: 10px;
+  border: 1px solid #F0997B;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+}
+.about-title{
+  font-size: 20px;
+  padding: 4px;
+}
+.about-title-info{
+  color: #993C1D;
+  padding: 10px;
+}
+.about-para{
+  /* background-color: ; */
+  text-decoration-color: #f5c4b3;
+}
+
+
 
 #skills{
   border: 1px solid rgb(127, 119, 221);
@@ -125,7 +189,6 @@
   background-color: rgb(238, 237, 254);
 }
 #tech-skill{
-  font-size: 30px;
   color: rgb(60, 52, 137);
   text-align: center;
 }
@@ -150,6 +213,7 @@
 .box{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .skill-titles{
   border: 1px solid rgb(175, 169, 236);
@@ -170,7 +234,10 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 0px 20px 0px 20px;
 }
 .progress-bar{
   color:rgb(95, 94, 90);
+  font-size: 20px;
+  margin: 5px;
 }

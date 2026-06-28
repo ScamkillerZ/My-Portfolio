@@ -42,6 +42,7 @@
   border-radius: 10px;
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
 }
 #profile-pic{
   height: 300px;
@@ -77,11 +78,13 @@
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
   list-style: none;
+  margin: 5px 5px 5px 0px;
 }
 .bio-detail{
   background-color: rgb(211, 209, 199);
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
+  margin-bottom: 5px;
 }
 #social-links{
   display: flex;
@@ -90,7 +93,6 @@
 }
 #social-button{
   display: flex;
-  justify-content: space-between;
 }
 #view-projects-btn{
   font-size: 20px;
@@ -99,6 +101,7 @@
   color: white;
   border-radius: 5px;
   padding: 10px 20px 10px 20px;
+  margin-right: 5px;
 }
 #cv-download-btn{
   font-size: 20px;
@@ -252,23 +255,90 @@
   flex-wrap: wrap;
 }
 .project-boxes{
-  border: 1px solid rgb(93, 202, 165);
+  border: 2px solid rgb(93, 202, 165);
+  width: 40rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-content: center;
   border-radius: 10px;
+  margin: 10px;
+  background-color: rgb(93, 202, 165);;
 }
 .project-boxes-head{
-  background-color: rgb(93, 202, 165);
+  /* background-color: rgb(93, 202, 165); */
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 6px 6px 0px 0px;
+  padding: 10px;
 }
 .project-boxes-head-title{
   color: rgb(4, 52, 44);
+  font-size: x-large;
+  margin: 10px;
 }
 .project-boxes-head-sub-title{
   color: rgb(8, 80, 65);
+  font-size: large;
+}
+.project-float-skill-box{
+  display: flex; 
+  padding: 5px;
+  background-color: white;
+  border-width:2px 2px 2px 2px;
+  border-style: solid;
+  border-color: rgb(93, 202, 165);
+}
+.project-skill-name{
+  padding: 5px 10px 5px 10px;
+  color: rgb(15, 110, 86);
+  background-color: rgb(225, 245, 238);
+  border: 1px solid rgb(93, 202, 165);
+  border-radius: 20px;
+  margin: 5px;
+}
+.project-pdf{
+  width: 99%;
+  height:300px;
+  border: 1px solid white;
+  background-color: white;
+  align-self: center;
+}
+.project-made-date{
+  font-size: large;
+  padding: 10px;
+  background-color: white;
+  border-width:2px 2px 0px 2px;
+  border-style: solid;
+  border-color: rgb(93, 202, 165);
+}
+.project-button-box{
+  display: flex;
+  border-radius: 0px 0px 10px 10px;
+  background-color: white;
+  border-width:0px 2px 2px 2px;
+  border-style: solid;
+  border-color: rgb(93, 202, 165);
+}
+.project-button-github{
+  font-size: medium;
+  background-color: rgb(29, 158, 117);
+  color: white;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  margin: 10px 10px 30px 10px;
+  text-decoration: none;
+}
+.project-button-demo{
+  font-size: medium;
+  color: rgb(29, 158, 117);
+  background-color: white;
+  border: 2px solid  rgb(29, 158, 117);
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  margin: 10px 10px 30px 0px;
+  text-decoration: none;
 }
